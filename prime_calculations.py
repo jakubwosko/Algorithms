@@ -10,7 +10,7 @@ import texttable as tt
 
 def is_prime(my_num):
 
-    if my_num == 3 or my_num == 5:return 1
+    if my_num == 2 or my_num == 3 or my_num == 5:return 1
     if my_num % 2 == 0 or my_num % 3 == 0 or my_num % 5 == 0:return 0
 
     sqr=int(math.sqrt(my_num))
